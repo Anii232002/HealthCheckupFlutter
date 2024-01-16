@@ -13,6 +13,7 @@ class TestItemsProvider extends ChangeNotifier {
 
   void eraseSelectedItemsList() {
     _selectedItems = [];
+    paid_amount = savings = mrpTotal = discount = 0;
   }
 
   void notifyAll() {
